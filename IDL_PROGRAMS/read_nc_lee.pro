@@ -4,7 +4,7 @@
 ;modify by yhlee
 ;for modis 4km monthly
 ;2019-02-19
-pro read_nc,nc_file=nc_file,tag_name=tag_name,data=data,iostat=iostat
+pro read_nc_lee,nc_file=nc_file,tag_name=tag_name,data=data,iostat=iostat
 
 iostat=0
 fileid=ncdf_open(nc_file,/NOWRITE)
